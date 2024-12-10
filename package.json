@@ -4,8 +4,8 @@
     },
 
     "scripts": {
-        "start": "npx concurrently \"npm run script1\" \"npm run script2\"",
-        "script1": "cd server; npm i; npm run dev",
-        "script2": "cd client; npm install --legacy-peer-deps; npm start"
+        "start": "npm install && npx concurrently \"npm run script1\" \"npm run script2\"",
+        "script1": "cd server && npm i && npm run dev",
+        "script2": "cd client && npm install --legacy-peer-deps && npm start"
     }
 }
