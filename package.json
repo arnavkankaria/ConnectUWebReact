@@ -1,11 +1,17 @@
 {
     "devDependencies": {
         "@types/jest": "^29.5.14",
-        "concurrently": "^8.0.0"
+        "concurrently": "^8.0.0",
+        "jest": "^29.7.0",
+        "getstream": "^8.4.1"
     },
     "scripts": {
         "start": "npm install && npx concurrently \"npm run script1\" \"npm run script2\"",
         "script1": "cd server && npm i && npm run dev",
-        "script2": "cd client && npm install --legacy-peer-deps && npm start"
+        "script2": "cd client && npm install --legacy-peer-deps && npm start",
+        "test": "jest"
+    },
+    "dependencies": {
+        "getstream": "^8.4.1"
     }
 }
