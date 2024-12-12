@@ -21,3 +21,5 @@ The stream API, the backend, and the frontend are currently functional and deplo
 - **Danny Cedrone** - [LinkedIn](https://www.linkedin.com/in/danny-cedrone-a14176202/) | [GitHub](https://github.com/dannycedrone)
 - **Viral Rathod** - [LinkedIn](https://www.linkedin.com/in/viralrathod1/) | [GitHub](https://github.com/viralrathod10)
 - **Arnav Kankaria** - [LinkedIn](https://www.linkedin.com/in/arnav-kankaria-b78b26213/) | [GitHub](https://github.com/arnavkankaria)
+
+This project was developed using a [YouTube tutorial](https://www.youtube.com/watch?v=MJzbJQLGehs) by JavaScript Mastery and was also facilitated by their open source CSS files. 
