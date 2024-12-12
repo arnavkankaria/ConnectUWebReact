@@ -1,8 +1,8 @@
 {
     "devDependencies": {
+        "@types/jest": "^29.5.14",
         "concurrently": "^8.0.0"
     },
-
     "scripts": {
         "start": "npm install && npx concurrently \"npm run script1\" \"npm run script2\"",
         "script1": "cd server && npm i && npm run dev",
