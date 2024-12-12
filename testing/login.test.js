@@ -1,4 +1,4 @@
-const { login } = require('../server/src/controllers/auth');
+const { login } = require('../server/controllers/auth');
 const { Request, Response } = require('express');
 const bcrypt = require('bcrypt');
 const { StreamChat } = require('stream-chat');
