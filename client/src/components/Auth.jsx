@@ -29,8 +29,8 @@ const Auth = () => {
 
         const { username, password, phoneNumber, avatarURL } = form;
 
-        const URL = 'http://localhost:8000/auth';
-        //const URL = 'https://uconnect-f5fe87065c12.herokuapp.com/auth';
+        //const URL = 'http://localhost:8000/auth';
+        const URL = 'https://uconnect-f5fe87065c12.herokuapp.com/auth';
 
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
             username, password, fullName: form.fullName, phoneNumber, avatarURL,
